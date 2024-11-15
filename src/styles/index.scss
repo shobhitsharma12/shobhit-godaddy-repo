@@ -1,0 +1,14 @@
+// Tailwind imports
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// SCSS variable and mixin imports
+@import "./variables";
+@import "./mixins";
+
+// Global styles
+body {
+  font-family: $font-family;
+  color: $text-color;
+}
